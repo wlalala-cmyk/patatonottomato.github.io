@@ -1,0 +1,79 @@
+.title{
+	font-size: 350px;
+    font-weight: 300;
+    text-align:center;
+	margin-bottom: 12px;
+	letter-spacing: -1px;
+	text-indent: 12px;
+}
+.events{
+	margin-top: 60px;
+    margin-right: 70px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;	
+}
+.news{
+	margin-top: 60px;
+    margin-right: 70px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;	
+}
+.products{
+	margin-top: 60px;
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;	
+}
+.contact{
+	margin-top: 60px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;
+}
+.about{
+	margin-top: 120px;
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;	
+}
+.about2{
+	margin-top: 3px;
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-indent: 20px;	
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: rgb(15, 139, 255);
+}/*鼠标碰到的时候样式*/
+a:focus,a:active{
+	color: black;
+}
+/*a:focus,a:active--->鼠标点击时的样式*/
+.footer {
+    margin-top: 240px;
+    clear:both;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align:center;
+    padding:5px; 
+}
+body{
+	background: none;
+
+}
