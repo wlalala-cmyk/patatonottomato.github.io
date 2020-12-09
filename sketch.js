@@ -31,7 +31,7 @@ function draw() {
   time++
 
     scale(0.15);
-  image(img, windowWidth+2500, windowHeight+600);
+  image(img, windowWidth+2700, windowHeight+600);
 
   
 }
