@@ -81,8 +81,8 @@ item_list,section,footer,footer2{
     /* float: left; */
     list-style: none;
     /* margin: 15px; */
-	font-size: 18px;
-	/* font-weight: lighter; */
+	font-size: 17px;
+/*	font-weight: lighter; */
 	letter-spacing: 1px;
     /* text-indent: px;	 */
     text-decoration:none;
@@ -314,7 +314,7 @@ hr.line{
 
 
 .blog-post img {
-	width: 100%;
+	width: 70%;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -473,4 +473,5 @@ p.sub_head {
   width: 0;
   height: 0;
 }
-				  
+.item_list{width:500px;margin:20px auto 0}
+.item_list li{float:left;padding:0 10px}
