@@ -1,13 +1,14 @@
 <html>
 
 <head>
-    <title>24/24公司</title>
+    <title>24/24</title>
     <style type="text/css">
 
     </style>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -56,13 +57,13 @@
     <!-- menu -->
     <div align="center">
         <ul class="item_list">
-            <a href="about.html" target="_blank" ><li>关于24/24</a></li>
-            <a href="products.html" target="_blank"><li>产品</a></li>
-            <a href="events.html" target="_blank"><li>事件</a></li>
-            <a href="news.html " target="_blank"><li>资讯与活动</a></li>
-            <a href="contact.html" target="_blank"><li>联系我们</a></li>
+            <a href="about.html" target="_blank" ><li>关于24/24</li></a>
+            <a href="products.html" target="_blank"><li>产品</li></a>
+            <a href="event.html" target="_blank"><li>事件</li></a>
+            <a href="0.html " target="_blank"><li>资讯与活动</li></a>
+            <a href="contact.html" target="_blank"><li>联系我们</li></a>
         </ul>
-    </div>
+    </div><div style="clear:both"></div>
     
     <div class="section">
         <!-- <span class="marquee--entry">
@@ -78,7 +79,7 @@
      </div>
   <!-- <ul class="menu_items">     
       <li class="menu_item">
-          <a class="apparatus_page" data-path="about" href="/about.html">关于24/24</a>
+          <a class="a_p" data-path="about" href="/about.html">关于24/24</a>
       </li>
 
   </ul> -->
@@ -87,11 +88,38 @@
       <!-- <p class="footer2 mirrorRotateHo">感谢您的休息</p> -->
       <p class="footer2">感谢您的休息</p> 
       <p class="footer2">thank you for your rest</p>
-      <p class="footer2">"All work and no play makes Jack a dull boy."</p>
+<!--       <p class="footer2">"All work and no play makes Jack a dull boy."</p> -->
       <p class="footer2">copyright &copy; 2021 24/24company All rights reserved.</p>
 
     </div>
-   
+<!--加载动画开始-->
+<script src="js/p5.js"></script>
+<script src="js/p5.dom.min.js"></script>
+<script src="js/p5.sound.min.js"></script>
+<script src="js/sketch.js"></script>  
+<style>
+body{overflow:hidden}
+#bodybg{position:fixed;width:100%;height:100%;top:0;left:0;background:#e5e5e5;}
+#defaultCanvas0{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: -200px auto 0;
+    z-index:1;
+}
+</style>
+<div id="bodybg"></div>
+<script type="text/javascript">
+window.onload = function(){
+ setTimeout(function(){
+  document.getElementById("defaultCanvas0").style.cssText="display:none";
+  document.getElementById("bodybg").style.cssText="display:none";
+  document.getElementsByTagName("body")[0].style.cssText="overflow-y:auto"
+ },2000);
+}
+</script>
+<!--/加载动画结束-->
 </body>
 
 </html>
